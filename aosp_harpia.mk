@@ -16,7 +16,7 @@
 $(call inherit-product, device/motorola/harpia/full_harpia.mk)
 
 # Inherit some common LOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+#$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Boot animation
 PRODUCT_COPY_FILES += device/motorola/harpia/bootanimation.zip:system/media/bootanimation.zip
